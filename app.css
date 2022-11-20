@@ -91,7 +91,7 @@ a:hover {
 /* modal section */
 
 .modal {
-    /* display: none; */
+    display: none;
     position: fixed;
     /* overflow: auto; */
     z-index: 1;
