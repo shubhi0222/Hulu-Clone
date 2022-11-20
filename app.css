@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+    color: #00ed82;
+}
+
+a,
+h6 {
+    color: #cccccc;
+    display: block;
+    padding: 5%;
+    font-size: smaller;
+}
+
+h3,
+h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h4 {
+    color: white;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+a:hover {
+    scale: 1.05;
+}
+
+
+/* css for main section */
+
+.main {
+    background: url("./assets/images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: right;
+    padding: 5%;
+    width: 90%;
+}
+
+.main .container {
+    padding: 2%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.main .container img {
+    width: 40%;
+}
+
+.main .container button {
+    background-color: white;
+    color: black;
+    padding: 2%;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.main .container button:hover {
+    scale: 1.05;
+}
+
+.main .login {
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.main .login:hover {
+    color: #00ed82;
+}
+
+.main .container .h {
+    display: none;
+    font-weight: lighter;
+}
+
+
+/* modal section */
+
+.modal {
+    /* display: none; */
+    position: fixed;
+    /* overflow: auto; */
+    z-index: 1;
+    /* height: 37%; */
+    width: 35%;
+    top: 23%;
+    left: 29%;
+    color: black;
+    background-color: white;
+    font-size: small;
+    /* transition: all ease-in 1s; */
+    /* background-color: rgba(255, 255, 255, 0.4); */
+}
+
+.modal .container {
+    padding: 5% 12%;
+}
+
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 3.7%;
+    margin: 3.7% 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.modal h2 {
+    color: black;
+    font-weight: bolder;
+    padding: 4% 12%;
+    font-size: x-large;
+}
+
+.modal a {
+    text-decoration: none;
+    color: blue;
+    display: inline;
+    padding: 0;
+}
+
+.modal-content {
+    /* margin: 5% auto 15% auto; */
+    /* padding: 15%; */
+    width: 80%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 4%;
+    right: 6%;
+    width: 6%;
+    height: 6%;
+}
+
+button[type=submit] {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 3.7%;
+    margin-top: 22%;
+}
+
+.bottom {
+    background-color: #ebedf2;
+    padding: 4%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/* Logos Section */
+
+.logos {
+    background-image: linear-gradient(to right, rgb(0, 52, 0), rgb(0, 79, 110));
+    text-align: center;
+    padding: 7%;
+    font-weight: lighter;
+}
+
+.logos img {
+    width: 90%;
+}
+
+.logos button {
+    background-color: transparent;
+    color: white;
+    padding: 3%;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.logos button:hover {
+    scale: 1.025;
+    color: black;
+    background-color: white;
+}
+
+
+/* seasons section */
+
+.seasons {
+    padding: 8%;
+    background-color: black;
+    text-align: center;
+}
+
+.imag {
+    position: relative;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.imag img {
+    opacity: 0.7;
+    width: 80%;
+}
+
+.show1,
+.show2 {
+    position: absolute;
+    z-index: 20;
+    left: 15%;
+}
+
+.show1 {
+    top: 2%;
+}
+
+.show2 {
+    top: 7%;
+    font-weight: lighter;
+}
+
+
+/* live section */
+
+.live {
+    background-color: #151516;
+    padding: 12% 8%;
+    text-align: center;
+}
+
+.live .container {
+    border: 3px solid #00ed82;
+    border-radius: 15px;
+    line-height: 30px;
+    padding: 8%;
+}
+
+.live .container h1 {
+    font-size: xx-large;
+}
+
+.live .container h6 {
+    margin: 0;
+}
+
+.live .container h2 {
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+}
+
+.live .container h3 {
+    position: relative;
+    left: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+
+
+/* sports section */
+
+.sports {
+    background-image: url("./assets/images/live-sports-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sports .container {
+    padding-top: 15%;
+    padding-bottom: 90%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.sports .container h4 {
+    font-weight: lighter;
+}
+
+.sports ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.sports li {
+    background-image: url("./assets/images/network-logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position-x: center; */
+    padding: 6%;
+}
+
+.sports img {
+    width: 42px;
+    height: 42px;
+}
+
+.sports h6 {
+    line-height: 30px;
+    padding-bottom: 100px;
+}
+
+
+/* footer section */
+
+.footer {
+    color: black;
+    background-color: #f7f7f9;
+    padding: 5% 15%;
+    line-height: 33px;
+    font-weight: normal;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer h5 {
+    margin: 0;
+    color: black;
+    font-weight: 900;
+}
+
+.footer div {
+    padding: 30px 0;
+}
+
+footer {
+    padding: 30px 0;
+    border-top: 3px solid #ebedf2;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+footer img:hover {
+    scale: 1.05;
+}
+
+
+/* media query section */
+
+
+/* tablet view */
+
+@media only screen and (min-width: 481px) {
+    /* seasons section */
+    .seasons .div2 {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:769px) {
+    /* main section */
+    .main .container .h {
+        display: block;
+    }
+    /* logos section */
+    .logos {
+        padding: 2%;
+        display: flex;
+        align-items: center;
+    }
+    .logos div {
+        width: 34%;
+    }
+    .logos h1 {
+        margin: 0;
+    }
+    /* seasons section */
+    .imag img {
+        width: 90%;
+    }
+    .div4 {
+        display: flex;
+    }
+    .div2 {
+        text-align: left;
+        width: 50%;
+    }
+    .show1 {
+        left: 3%;
+        top: 3%;
+    }
+    .show2 {
+        left: 3%;
+        top: 10%;
+    }
+    /* live section */
+    .sports {
+        background-image: url("./assets/images/live-sports-desktop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 0;
+        width: 90%;
+        padding: 9.9% 5%;
+    }
+    .sports .container {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+    .sports .container ul {
+        width: 70%;
+    }
+    /* footer section */
+    .footer {
+        width: 94%;
+        padding: 3%;
+    }
+    .footer div {
+        display: flex;
+        justify-content: space-around;
+    }
+}
